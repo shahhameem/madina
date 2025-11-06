@@ -1,0 +1,295 @@
+/*
+ * STYLESHEET FOR MADINA CHEMISTS WEBSITE
+ * Theme: DodgerBlue and White
+ */
+
+/* ======== 1. Global & Root Variables ======== */
+:root {
+    --primary-color: dodgerblue; /* DodgerBlue */
+    --secondary-color: #ffffff; /* White */
+    --text-color: #333333; /* Dark Grey for text */
+    --light-grey: #f4f4f4; /* Light background color */
+    --border-color: #dddddd; /* Light border */
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ======== 2. Header & Navbar ======== */
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.navbar .nav-links {
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* ======== 3. Utility Buttons ======== */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #007bff; /* A slightly darker blue */
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: #6c757d; /* Grey */
+    color: var(--secondary-color);
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+/* ======== 4. Homepage: Carousel ======== */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Or 100% if you want full-width */
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    margin-left: 15%;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* ======== 5. Homepage: Sections ======== */
+.welcome-section {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.categories-section {
+    padding: 2rem 0;
+    background-color: var(--light-grey);
+}
+
+.categories-section h2 {
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.category-card {
+    background: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* ======== 6. General Page Content ======== */
+.page-content {
+    padding: 2rem 0;
+}
+
+.medicine-list ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.medicine-list li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-details p {
+    line-height: 1.8;
+}
+
+/* ======== 7. Order Form ======== */
+.order-form {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.order-form fieldset {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.order-form legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: var(--primary-color);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+}
+
+.order-form button {
+    margin-right: 10px;
+}
+
+/* ======== 8. Footer ======== */
+.footer {
+    background-color: #333;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}

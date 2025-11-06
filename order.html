@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Madina Chemists and Druggist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Madina Chemists</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="medicines.html">Medicines</a></li>
+                    <li><a href="order.html" class="active">Order Now</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container page-content">
+            <h1>Order Your Medicines</h1>
+            <p>Fill out the form to place your order. You can type your medicine list or upload a prescription.</p>
+
+            <form id="order-form" class="order-form">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">WhatsApp Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g., 91XXXXXXXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email (Optional):</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Order</legend>
+                    <div class="form-group">
+                        <label for="medicines">Type Medicine List (one per line):</label>
+                        <textarea id="medicines" name="medicines" rows="6" placeholder="e.g., Paracetamol 500mg - 1 strip"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="prescription">Upload Prescription (Optional):</label>
+                        <input type="file" id="prescription" name="prescription" accept="image/*,.pdf">
+                        <small>Note: File upload only works with a backend. For now, this is a placeholder.</small>
+                    </div>
+                </fieldset>
+                
+                <button type="submit" id="whatsapp-btn" class="btn-primary">Send Order via WhatsApp</button>
+                <button type="button" id="email-btn" class="btn-secondary">Send Order via Email</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Madina Chemists and Druggist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
