@@ -1,62 +1,44 @@
-/*
- * CUSTOM STYLESHEET FOR MADINA CHEMISTS
- * This file overrides Bootstrap defaults and adds custom effects.
- */
+/* ======== 3. Cart & Medicines ======== */
 
-/* ======== 1. Theme: DodgerBlue and White ======== */
-
-/* * We use CSS variables to override Bootstrap's defaults.
- * This is the modern, recommended way to customize Bootstrap.
- * It automatically updates components like 'bg-primary', 'btn-primary', etc.
- */
-:root {
-    --bs-primary: dodgerblue;
-    --bs-primary-rgb: 30, 144, 255; /* RGB value for 'dodgerblue' */
-    --bs-link-color: dodgerblue;
-    --bs-link-hover-color: #1872cc; /* A darker blue for hover */
+/* Cart Badge in Navbar */
+.navbar .nav-item .nav-link .badge {
+    font-size: 0.7em;
+    padding: 0.3em 0.5em;
+    position: relative;
+    top: -2px;
 }
 
-/* * We also need to redefine the 'btn-primary' hover state
- * because the default is calculated from the original blue.
- */
-.btn-primary {
-    --bs-btn-hover-bg: #1872cc;
-    --bs-btn-hover-border-color: #176ac0;
+/* Medicine Card */
+.card-title {
+    color: var(--bs-primary);
 }
 
-/* Make Bootstrap's secondary button (grey) fit our theme */
-.btn-secondary {
-    --bs-btn-bg: #6c757d;
-    --bs-btn-border-color: #6c757d;
-    --bs-btn-hover-bg: #5a6268;
-    --bs-btn-hover-border-color: #545b62;
+.card-subtitle {
+    color: var(--bs-primary) !important;
 }
 
-/* Style for the optional logo in the navbar */
-.navbar-logo {
-    height: 35px; /* Adjust height as needed */
-    width: auto;
+/* Cart Modal */
+.cart-quantity-input {
+    text-align: center;
 }
 
-
-/* ======== 2. "Aero" Hover Effects ======== */
-
-/* Add a subtle lift and shadow to cards on hover */
-.aero-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Toast Notification for 'Add to Cart' */
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1100; /* Above other content */
 }
 
-.aero-card:hover {
-    transform: translateY(-5px); /* Lifts the card up */
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+.toast {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
-/* Add a subtle lift to buttons on hover */
-.btn {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+.toast.show {
+    opacity: 1;
 }
 
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.toast.hide {
+    opacity: 0;
 }

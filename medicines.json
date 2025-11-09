@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol 500mg",
+    "category": "Pain Relief",
+    "price": 30.50,
+    "description": "10 tablets. For fever and mild pain."
+  },
+  {
+    "id": 2,
+    "name": "Ibuprofen 400mg",
+    "category": "Pain Relief",
+    "price": 55.00,
+    "description": "10 tablets. Anti-inflammatory."
+  },
+  {
+    "id": 3,
+    "name": "Cetirizine 10mg",
+    "category": "Allergy",
+    "price": 40.00,
+    "description": "10 tablets. For allergies."
+  },
+  {
+    "id": 4,
+    "name": "Omeprazole 20mg",
+    "category": "Digestive Health",
+    "price": 75.00,
+    "description": "14 capsules. For acid reflux."
+  },
+  {
+    "id": 5,
+    "name": "Vitamin C 500mg",
+    "category": "Vitamins",
+    "price": 90.00,
+    "description": "30 chewable tablets."
+  },
+  {
+    "id": 6,
+    "name": "Aspirin 75mg",
+    "category": "Heart",
+    "price": 25.00,
+    "description": "14 tablets. Blood thinner."
+  },
+  {
+    "id": 7,
+    "name": "Salbutamol Inhaler",
+    "category": "Asthma",
+    "price": 150.00,
+    "description": "200 puffs. For asthma relief."
+  }
+]

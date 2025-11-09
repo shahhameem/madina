@@ -5,10 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Madina Chemists and Druggist</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -18,24 +16,24 @@
             <a class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="images/logo.png" width="75px" alt="" /> Madina Chemists
             </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="medicines.html">Medicines</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="order.html">Order Now</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="medicines.html">Medicines</a>
+                        <button id="cart-button" class="btn btn-outline-light" type="button">
+                            <img src="images/branded_09092025.png" width="50px" alt="">
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -86,42 +84,77 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 text-center aero-card">
                         <img src="./images/medicine_ff.webp" class="card-img-top" alt="drugs" />
-                        <div class="card-body">
-                            <h5 class="card-title">Prescription Drugs</h5>
-                            <p class="card-text">All your prescribed medications.</p>
-                        </div>
+                        <a href="medicines.html">
+                            <div class="card-body">
+                                <h5 class="card-title">Prescription Drugs</h5>
+                                <p class="card-text">All your prescribed medications.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 text-center aero-card">
                         <img src="./images/vitamis.webp" class="card-img-top" alt="wellness" />
-                        <div class="card-body">
-                            <h5 class="card-title">OTC & Wellness</h5>
-                            <p class="card-text">Vitamins, supplements, and more.</p>
-                        </div>
+                        <a href="medicines.html">
+                            <div class="card-body">
+                                <h5 class="card-title">OTC & Wellness</h5>
+                                <p class="card-text">Vitamins, supplements, and more.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 text-center aero-card">
                         <img src="./images/personal_care.webp" class="card-img-top" alt="personal" />
-                        <div class="card-body">
-                            <h5 class="card-title">Personal Care</h5>
-                            <p class="card-text">Skincare and hygiene products.</p>
-                        </div>
+                        <a href="medicines.html">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Care</h5>
+                                <p class="card-text">Skincare and hygiene products.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 text-center aero-card">
                         <img src="./images/sports.webp" class="card-img-top" alt="sports" />
-                        <div class="card-body">
-                            <h5 class="card-title">Sports Nutrition</h5>
-                            <p class="card-text">Protiene, whey and more.</p>
-                        </div>
+                        <a href="medicines.html">
+                            <div class="card-body">
+                                <h5 class="card-title">Sports Nutrition</h5>
+                                <p class="card-text">Protiene, whey and more.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1100"></div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Your Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul id="cartItemsList" class="list-group list-group-flush"></ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="clearCartBtn" class="btn btn-outline-danger me-auto">
+                        Clear Cart
+                    </button>
+                    <span class="fs-5 me-3">Total:
+                        <strong id="cartTotal" class="text-primary">₹0.00</strong></span>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Continue Shopping
+                    </button>
+                    <a href="order.html" class="btn btn-primary">Proceed to Order</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white p-4 pt-5 mt-5">
         <div class="container">
@@ -164,6 +197,44 @@ EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
                 <p class="text-white-50">Monday - Sunday: 8:00 AM - 8:00 PM<br /></p>
             </div>
 
+            <!-- Social Links -->
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <ul class="list-inline text-center">
+
+                    <li class="list-inline-item" target="_blank">
+                        <a href="tel:+919682586995">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://wa.me/+919682586995" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/madina.chemists?igsh=MWw3dmJnaXp1enBhNA==" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="small text-center text-muted fst-italic">Copyright &copy; Hameem Shah <span id='year'></span></div>
+            </div>
+        </div>
+    </div>
+            
             <hr class="text-white-50" />
             <div class="text-center">
                 <p class="mb-0 text-white-50">
@@ -173,10 +244,7 @@ EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js" defer></script>
 </body>
 
