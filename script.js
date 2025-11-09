@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (medicinesListContainer) {
         // Fetch and display medicines
-        fetch('medicines.json')
+        fetch('./medicines.json')
             .then(response => response.json())
             .then(data => {
                 allMedicines = data; // Store all medicines globally
