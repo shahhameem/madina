@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- ======== 1. NAVBAR (Unchanged) ======== -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -45,7 +46,9 @@
         </div>
     </nav>
 
+    <!-- ======== 2. CAROUSEL (Unchanged) ======== -->
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- ... Your carousel items ... -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"></button>
@@ -73,6 +76,7 @@
         </button>
     </div>
 
+        <!-- ======== 4. WELCOME SECTION (Unchanged) ======== -->
     <section class="container text-center my-5">
         <h1 class="display-5">Welcome to Madina Chemists</h1>
         <p class="lead">
@@ -82,10 +86,78 @@
         <a href="order.html" class="btn btn-primary btn-lg mt-3">Order Medicines</a>
     </section>
 
+    <!-- ======== 3. NEW: APPOINTMENT SECTION ======== -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Book an Appointment</h2>
+            <div class="row g-4">
+                
+                <!-- Doctor Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 aero-card">
+                        <!-- 
+                            TODO: Add doctor image src here 
+                            Recommended size: 600x400
+                        -->
+                        <img src="images/drF.png" class="card-img-top doctor-img" alt="Dr. John Doe">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dr. Humaira</h5>
+                            <h6 class="card-subtitle mb-2 text-primary">General Physician</h6>
+                            <ul class="list-group list-group-flush my-3">
+                                <li class="list-group-item"><strong>Timings:</strong> Mon-Fri: 5pm - 8pm <br/> Sun: 8am - 8pm</li>
+                                <li class="list-group-item"><strong>Fee:</strong> Free Consultation</li>
+                            </ul>
+                            <p class="card-text small text-muted">Available for consultation regarding fever, cold, and general health checkups.</p>
+                            <button 
+                                class="btn btn-secondary mt-auto book-appointment-btn" 
+                                data-bs-toggle="modal" 
+                                data-bs-target="#appointmentModal"
+                                data-doctor-name="Dr. Humaira (General Physician)"
+                                data-doctor-timing="Mon-Fri: 5pm - 8pm">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 aero-card">
+                        <!-- 
+                            TODO: Add doctor image src here 
+                            Recommended size: 600x400
+                        -->
+                        <img src="https://i.ibb.co/PZstjMQ7/Face.jpg" class="card-img-top doctor-img" alt="Dr. Jane Smith">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dr. Imtiaz</h5>
+                            <h6 class="card-subtitle mb-2 text-primary">Orthopedic</h6>
+                            <ul class="list-group list-group-flush my-3">
+                                <li class="list-group-item"><strong>Timings:</strong> Monday: 11am - 2pm</li>
+                                <li class="list-group-item"><strong>Fee:</strong> ₹500</li>
+                            </ul>
+                            <p class="card-text small text-muted">Specialist in bone, joint, and arthiric conditions. Available on Mondays.</p>
+                            <button 
+                                class="btn btn-secondary mt-auto book-appointment-btn" 
+                                data-bs-toggle="modal" 
+                                data-bs-target="#appointmentModal"
+                                data-doctor-name="Dr. Imtiaz (Orthopedic)"
+                                data-doctor-timing="Mon: 11am - 2pm">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== 5. CATEGORIES SECTION (Unchanged) ======== -->
     <section class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Shop by Category</h2>
             <div class="row g-4">
+                <!-- ... Your category cards ... -->
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 text-center aero-card">
                         <img src="./images/medicine_ff.webp" class="card-img-top" alt="drugs" />
@@ -134,9 +206,12 @@
         </div>
     </section>
 
+    <!-- ======== 6. TOAST & MODALS ======== -->
     <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1100"></div>
 
+    <!-- Cart Modal (Unchanged) -->
     <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <!-- ... Your existing cart modal ... -->
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -161,32 +236,71 @@
         </div>
     </div>
 
+    <!-- NEW: Appointment Modal -->
+    <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="appointmentModalLabel">Book Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="appointment-form">
+                        <!-- Hidden fields to store doctor info -->
+                        <input type="hidden" id="appointmentDoctorName">
+                        <input type="hidden" id="appointmentDoctorTiming">
+                        
+                        <p>You are booking an appointment with: <br>
+                           <strong id="modalDoctorName" class="text-primary">Dr. John Doe</strong>
+                        </p>
+                        
+                        <div class="mb-3">
+                            <label for="patientName" class="form-label">Your Full Name:</label>
+                            <input type="text" class="form-control" id="patientName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="patientPhone" class="form-label">Your WhatsApp Number:</label>
+                            <input type="tel" class="form-control" id="patientPhone" placeholder="e.g., 91XXXXXXXXXX" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="patientEmail" class="form-label">Your Email (Optional):</label>
+                            <input type="email" class="form-control" id="patientEmail">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" id="appointmentEmailBtn" class="btn btn-secondary">Send via Email</button>
+                    <button type="button" id="appointmentWhatsAppBtn" class="btn btn-primary">Send via WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== 7. FOOTER (Unchanged) ======== -->
     <footer class="bg-dark text-white p-4 pt-5 mt-5">
+        <!-- ... Your entire footer ... -->
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <!-- Column 1: Contact -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <h4 class="mb-3">Contact Us</h4>
                     <p class="text-white-50">
-                        <a href="https://www.google.com/maps
-/place/Madina+chemists+and+druggists/@33.725817,75.0956787,17z/data=!
-3m1!4b1!4m6!3m5!1s0x38e205cd427a8439:
-0x7d8bb01b9179408d!8m2!3d33.725817!4d75.
-098259!16s%2Fg%2F11y3_4v_w6?hl=en-IN&entry=ttu&g_ep=
-EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                            <strong>Madina Chemists and Druggists</strong><br />
-                            New Bypass road, Wanpoh<br />
-                            Anantnag, Jammu and Kashmir, 192124
-                        </a>
+                        <a href="https... (etc)" target="_blank" class="text-white" style="text-decoration: none;">
+                            <strong>Madina Chemists and Druggists</strong>
+                        </a><br />
+                        New Bypass road, Wanpoh<br />
+                        Anantnag, Jammu and Kashmir, 192124
                     </p>
                     <p class="text-white-50">
                         <strong>Phone:</strong>
-                        <a href="tel:+919682586995">+919682586995</a><br />
+                        <a href="tel:+919682586995" class="text-white-50 text-decoration-none">+919682586995</a><br />
                         <strong>WhatsApp:</strong>
-                        <a href="https://wa.me/+919186006025">+919186006025</a>
+                        <a href="https://wa.me/+919186006025" class="text-white-50 text-decoration-none">+919186006025</a>
                     </p>
                 </div>
 
-                <div class="col-md-6 mb-4">
+                <!-- Column 2: About -->
+                <div class="col-lg-4 col-md-6 mb-4">
                     <h4 class="mb-3">About Madina Chemists</h4>
                     <p class="text-white-50">
                         Founded in 2023, Madina Chemists and Druggist has been a
@@ -195,62 +309,51 @@ EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
                         everyone.
                     </p>
                 </div>
-            </div>
 
-            <div class="col-md-6 mb-4">
-                <h4 class="mb-3">Opening Hours</h4>
-                <p class="text-white-50">Monday - Sunday: 8:00 AM - 8:00 PM<br /></p>
-            </div>
+                <!-- Column 3: Hours -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h4 class="mb-3">Opening Hours</h4>
+                    <p class="text-white-50">Monday - Sunday: 8:00 AM - 8:00 PM<br /></p>
+                </div>
+            </div> <!-- .row ENDS HERE -->
 
-            <!-- Social Links -->
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <ul class="list-inline text-center">
-
-                    <li class="list-inline-item" target="_blank">
-                        <a href="tel:+919682586995">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
-                            </span>
+            <!-- Social Links (Now centered) -->
+            <div class="text-center mb-4">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="tel:+919682586995" target="_blank" class="text-white">
+                            <i class="fa-solid fa-phone round"></i>
                         </a>
                     </li>
-
                     <li class="list-inline-item">
-                        <a href="https://wa.me/+919682586995" target="_blank">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
-                            </span>
+                        <a href="https://wa.me/+919682586995" target="_blank" class="text-white">
+                            <i class="fa-brands fa-whatsapp round"></i>
                         </a>
                     </li>
-
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/madina.chemists?igsh=MWw3dmJnaXp1enBhNA==" target="_blank">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                            </span>
+                        <a href="https://www.instagram.com/madina.chemists?igsh=MWw3dmJnaXp1enBhNA==" target="_blank" class="text-white">
+                            <i class="fa-brands fa-instagram round"></i>
                         </a>
                     </li>
                 </ul>
-                <div class="small text-center text-muted fst-italic">Copyright &copy; Hameem Shah <span id='year'></span></div>
             </div>
-        </div>
-    </div>
             
             <hr class="text-white-50" />
+
+            <!-- Combined and cleaned-up copyright -->
             <div class="text-center">
-                <p class="mb-0 text-white-50">
-                    &copy; 2025 Madina Chemists and Druggist. All rights reserved.
+                <p class="mb-0 text-white-50 small">
+                    Copyright © <span id="year"></span> Madina Chemists and Druggist. Designed by <a href="http://hameem.fun" target="_blank">Hameem Shah</a>.
                 </p>
             </div>
         </div>
     </footer>
 
+    <!-- ======== 8. SCRIPTS (Updated) ======== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js" defer></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
-
 </html>

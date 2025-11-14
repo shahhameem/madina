@@ -394,4 +394,94 @@ document.addEventListener('DOMContentLoaded', () => {
         cartButton.addEventListener('click', renderCartModal);
     }
 
+    // ======== APPOINTMENT BOOKING LOGIC ========
+    
+    const appointmentModal = document.getElementById('appointmentModal');
+    if (appointmentModal) {
+        
+        // **IMPORTANT**: Set your pharmacy's numbers here
+        // You can use the same ones from your order form
+        const PHARMACY_WHATSAPP_NUMBER = "919682586995"; // Your WhatsApp
+        const PHARMACY_EMAIL = "your-email@example.com"; // Your Email
+
+        // 1. When the modal is shown, populate it with doctor info
+        appointmentModal.addEventListener('show.bs.modal', (event) => {
+            // Get the button that triggered the modal
+            const button = event.relatedTarget;
+            
+            // Extract info from data- attributes
+            const doctorName = button.getAttribute('data-doctor-name');
+            const doctorTiming = button.getAttribute('data-doctor-timing');
+            
+            // Update the modal's content
+            const modalTitle = document.getElementById('appointmentModalLabel');
+            const modalDoctorName = document.getElementById('modalDoctorName');
+            const hiddenDoctorName = document.getElementById('appointmentDoctorName');
+            const hiddenDoctorTiming = document.getElementById('appointmentDoctorTiming');
+            
+            modalTitle.textContent = `Book Appointment with ${doctorName}`;
+            modalDoctorName.textContent = doctorName;
+            hiddenDoctorName.value = doctorName;
+            hiddenDoctorTiming.value = doctorTiming;
+            
+            // Clear old form data
+            document.getElementById('patientName').value = '';
+            document.getElementById('patientPhone').value = '';
+            document.getElementById('patientEmail').value = '';
+        });
+
+        // 2. Handle WhatsApp Button Click
+        const apptWhatsAppBtn = document.getElementById('appointmentWhatsAppBtn');
+        apptWhatsAppBtn.addEventListener('click', () => {
+            const patientName = document.getElementById('patientName').value;
+            const patientPhone = document.getElementById('patientPhone').value;
+            const doctorName = document.getElementById('appointmentDoctorName').value;
+            const doctorTiming = document.getElementById('appointmentDoctorTiming').value;
+
+            if (!patientName || !patientPhone) {
+                alert('Please fill in your Name and WhatsApp Number.');
+                return;
+            }
+
+            let message = `*New Appointment Booking*\n\n`;
+            message += `*Patient Name:* ${patientName}\n`;
+            message += `*Patient Phone:* ${patientPhone}\n\n`;
+            message += `*Doctor:* ${doctorName}\n`;
+            message += `*Timings:* ${doctorTiming}\n\n`;
+            message += `Please confirm this appointment request.`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/${PHARMACY_WHATSAPP_NUMBER}?text=${encodedMessage}`;
+            window.open(whatsappURL, '_blank');
+        });
+
+        // 3. Handle Email Button Click
+        const apptEmailBtn = document.getElementById('appointmentEmailBtn');
+        apptEmailBtn.addEventListener('click', () => {
+            const patientName = document.getElementById('patientName').value;
+            const patientEmail = document.getElementById('patientEmail').value;
+            const doctorName = document.getElementById('appointmentDoctorName').value;
+            const doctorTiming = document.getElementById('appointmentDoctorTiming').value;
+
+            if (!patientName) {
+                alert('Please fill in your Name.');
+                return;
+            }
+
+            const subject = `New Appointment Request for ${doctorName}`;
+            let body = `New Appointment Booking Request\n\n`;
+            body += `Patient Name: ${patientName}\n`;
+            body += `Patient Phone: ${document.getElementById('patientPhone').value}\n`;
+            body += `Patient Email: ${patientEmail || 'Not provided'}\n\n`;
+            body += `Requested Doctor: ${doctorName}\n`;
+            body += `Timings: ${doctorTiming}\n\n`;
+            body += `Please confirm this appointment request.`;
+
+            const encodedSubject = encodeURIComponent(subject);
+            const encodedBody = encodeURIComponent(body);
+            const mailtoURL = `mailto:${PHARMACY_EMAIL}?subject=${encodedSubject}&body=${encodedBody}`;
+            window.location.href = mailtoURL;
+        });
+    }
+
 });

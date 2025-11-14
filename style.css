@@ -42,3 +42,17 @@
 .toast.hide {
     opacity: 0;
 }
+
+/* ======== 4. Appointment Cards ======== */
+
+.doctor-img {
+    height: 200px; /* You can adjust this height */
+    object-fit: cover; /* This crops the image nicely */
+    width: 100%;
+}
+
+.round {
+    background-color: dodgerblue;
+    border-radius: 50%;
+    padding: 0.5em;
+}

@@ -47,5 +47,2056 @@
     "category": "Asthma",
     "price": 150.00,
     "description": "200 puffs. For asthma relief."
+  },
+  {
+    "id": 8,
+    "name": "Dolo 650",
+    "category": "Pain Relief",
+    "price": 32.00,
+    "description": "15 tablets. For fever and mild pain."
+  },
+  {
+    "id": 9,
+    "name": "Crocin Advance",
+    "category": "Pain Relief",
+    "price": 35.00,
+    "description": "10 tablets. Fast-release pain reliever."
+  },
+  {
+    "id": 10,
+    "name": "Disprin Regular",
+    "category": "Pain Relief",
+    "price": 22.00,
+    "description": "10 tablets. Classic pain relief."
+  },
+  {
+    "id": 11,
+    "name": "Allegra 120mg",
+    "category": "Allergy",
+    "price": 190.00,
+    "description": "10 tablets. Non-drowsy allergy relief."
+  },
+  {
+    "id": 12,
+    "name": "Loratadine 10mg",
+    "category": "Allergy",
+    "price": 45.00,
+    "description": "10 tablets. Antihistamine."
+  },
+  {
+    "id": 13,
+    "name": "Avil 25mg",
+    "category": "Allergy",
+    "price": 28.00,
+    "description": "10 tablets. For allergic reactions."
+  },
+  {
+    "id": 14,
+    "name": "Gelusil Liquid",
+    "category": "Digestive Health",
+    "price": 110.00,
+    "description": "200ml. Antacid for acidity and gas."
+  },
+  {
+    "id": 15,
+    "name": "ENO Lemon Sachet",
+    "category": "Digestive Health",
+    "price": 10.00,
+    "description": "5g sachet. Instant antacid relief."
+  },
+  {
+    "id": 16,
+    "name": "Digene Tablets",
+    "category": "Digestive Health",
+    "price": 48.00,
+    "description": "15 tablets. Mint-flavored antacid."
+  },
+  {
+    "id": 17,
+    "name": "ORS Powder",
+    "category": "Hydration",
+    "price": 20.00,
+    "description": "21g sachet. Electrolyte replacement."
+  },
+  {
+    "id": 18,
+    "name": "Glucon-D Regular",
+    "category": "Hydration",
+    "price": 55.00,
+    "description": "125g. Instant energy drink mix."
+  },
+  {
+    "id": 19,
+    "name": "Electral Powder",
+    "category": "Hydration",
+    "price": 18.00,
+    "description": "ORS formula. WHO standard."
+  },
+  {
+    "id": 20,
+    "name": "Limcee Vitamin C",
+    "category": "Vitamins",
+    "price": 42.00,
+    "description": "15 chewable tablets."
+  },
+  {
+    "id": 21,
+    "name": "Becosules Capsules",
+    "category": "Vitamins",
+    "price": 45.00,
+    "description": "20 capsules. B-complex supplement."
+  },
+  {
+    "id": 22,
+    "name": "Zincovit Tablets",
+    "category": "Vitamins",
+    "price": 110.00,
+    "description": "15 tablets. Multivitamin with zinc."
+  },
+  {
+    "id": 23,
+    "name": "A to Z Multivitamin",
+    "category": "Vitamins",
+    "price": 95.00,
+    "description": "10 tablets. Daily multivitamin."
+  },
+  {
+    "id": 24,
+    "name": "Volini Spray",
+    "category": "Pain Relief",
+    "price": 135.00,
+    "description": "60g spray. For muscle and joint pain."
+  },
+  {
+    "id": "25",
+    "name": "Moov Pain Relief Cream",
+    "category": "Pain Relief",
+    "price": 60.00,
+    "description": "15g cream. Topical analgesic."
+  },
+  {
+    "id": 26,
+    "name": "Iodex Balm",
+    "category": "Pain Relief",
+    "price": 55.00,
+    "description": "20g balm. Relieves body pain."
+  },
+  {
+    "id": 27,
+    "name": "Vicks VapoRub",
+    "category": "Cold & Cough",
+    "price": 95.00,
+    "description": "25ml. Relief from cold and congestion."
+  },
+  {
+    "id": 28,
+    "name": "Cofsils Lozenges",
+    "category": "Cold & Cough",
+    "price": 45.00,
+    "description": "10 lozenges. For sore throat."
+  },
+  {
+    "id": 29,
+    "name": "HoneyTus Cough Syrup",
+    "category": "Cold & Cough",
+    "price": 85.00,
+    "description": "100ml. Herbal cough relief."
+  },
+  {
+    "id": 30,
+    "name": "Benadryl Cough Syrup",
+    "category": "Cold & Cough",
+    "price": 135.00,
+    "description": "150ml. For dry and wet cough."
+  },
+  {
+    "id": 31,
+    "name": "Himalaya Liv.52",
+    "category": "Herbal",
+    "price": 120.00,
+    "description": "60 tablets. Liver wellness supplement."
+  },
+  {
+    "id": 32,
+    "name": "Himalaya Ashwagandha",
+    "category": "Herbal",
+    "price": 170.00,
+    "description": "60 tablets. Stress support."
+  },
+  {
+    "id": 33,
+    "name": "Dabur Chyawanprash 500g",
+    "category": "Herbal",
+    "price": 210.00,
+    "description": "Ayurvedic immunity booster."
+  },
+  {
+    "id": 34,
+    "name": "Pudin Hara Pearls",
+    "category": "Digestive Health",
+    "price": 40.00,
+    "description": "10 capsules. Indigestion relief."
+  },
+  {
+    "id": 35,
+    "name": "Zandu Balm",
+    "category": "Pain Relief",
+    "price": 42.00,
+    "description": "8g balm. Headache and body pain relief."
+  },
+  {
+    "id": 36,
+    "name": "Dettol Antiseptic Liquid",
+    "category": "First Aid",
+    "price": 85.00,
+    "description": "60ml. Disinfectant liquid."
+  },
+  {
+    "id": 37,
+    "name": "Savlon Antiseptic Liquid",
+    "category": "First Aid",
+    "price": 75.00,
+    "description": "50ml. Antiseptic disinfectant."
+  },
+  {
+    "id": 38,
+    "name": "Band-Aid Strips",
+    "category": "First Aid",
+    "price": 28.00,
+    "description": "10 strips. For minor cuts."
+  },
+  {
+    "id": 39,
+    "name": "Cotton Roll 50g",
+    "category": "First Aid",
+    "price": 25.00,
+    "description": "Absorbent cotton for cleaning wounds."
+  },
+  {
+    "id": 40,
+    "name": "Crepe Bandage 5cm",
+    "category": "First Aid",
+    "price": 45.00,
+    "description": "Elastic bandage for support."
+  },
+  {
+    "id": 41,
+    "name": "Cetaphil Gentle Cleanser 125ml",
+    "category": "Skin Care",
+    "price": 310.00,
+    "description": "For sensitive skin."
+  },
+  {
+    "id": 42,
+    "name": "Himalaya Neem Face Wash",
+    "category": "Skin Care",
+    "price": 140.00,
+    "description": "100ml. Anti-acne herbal cleanser."
+  },
+  {
+    "id": 43,
+    "name": "Nivea Soft Cream 100ml",
+    "category": "Skin Care",
+    "price": 160.00,
+    "description": "Moisturizing cream."
+  },
+  {
+    "id": 44,
+    "name": "Boroline Antiseptic Cream",
+    "category": "Skin Care",
+    "price": 38.00,
+    "description": "20g. Night repair cream."
+  },
+  {
+    "id": 45,
+    "name": "Burnol Cream",
+    "category": "First Aid",
+    "price": 45.00,
+    "description": "20g. First-aid cream for burns."
+  },
+  {
+    "id": 46,
+    "name": "Dettol Handwash Refill",
+    "category": "Hygiene",
+    "price": 80.00,
+    "description": "175ml. Antibacterial handwash."
+  },
+  {
+    "id": 47,
+    "name": "Lifebuoy Hand Sanitizer",
+    "category": "Hygiene",
+    "price": 55.00,
+    "description": "50ml. Instant germ protection."
+  },
+  {
+    "id": 48,
+    "name": "Colgate Sensitive",
+    "category": "Oral Care",
+    "price": 125.00,
+    "description": "70g toothpaste for sensitivity."
+  },
+  {
+    "id": 49,
+    "name": "Sensodyne Fresh Mint",
+    "category": "Oral Care",
+    "price": 110.00,
+    "description": "40g. Sensitivity relief."
+  },
+  {
+    "id": 50,
+    "name": "Himalaya Dental Cream",
+    "category": "Oral Care",
+    "price": 35.00,
+    "description": "20g herbal toothpaste."
+  },
+  {
+    "id": 51,
+    "name": "Whisper Ultra Soft XL",
+    "category": "Personal Care",
+    "price": 85.00,
+    "description": "7 pads. Soft sanitary pads."
+  },
+  {
+    "id": 52,
+    "name": "Stayfree Secure XL",
+    "category": "Personal Care",
+    "price": 72.00,
+    "description": "10 pads."
+  },
+  {
+    "id": 53,
+    "name": "Durex Air Condoms",
+    "category": "Personal Care",
+    "price": 200.00,
+    "description": "10 ultra-thin condoms."
+  },
+  {
+    "id": 54,
+    "name": "Manforce Strawberry Condoms",
+    "category": "Personal Care",
+    "price": 90.00,
+    "description": "10 flavoured condoms."
+  },
+  {
+    "id": 55,
+    "name": "Imodium 2mg",
+    "category": "Digestive Health",
+    "price": 45.00,
+    "description": "4 capsules. For loose motion."
+  },
+  {
+    "id": 56,
+    "name": "Isabgol 100g",
+    "category": "Digestive Health",
+    "price": 75.00,
+    "description": "Fiber husk for digestion."
+  },
+  {
+    "id": 57,
+    "name": "Himalaya Triphala",
+    "category": "Herbal",
+    "price": 90.00,
+    "description": "60 tablets. Digestive wellness."
+  },
+  {
+    "id": 58,
+    "name": "Sugar-Free Gold Tablets",
+    "category": "Diabetes Care",
+    "price": 120.00,
+    "description": "100 sugar substitute tablets."
+  },
+  {
+    "id": 59,
+    "name": "Accu-Chek Softclix Lancets",
+    "category": "Diabetes Care",
+    "price": 290.00,
+    "description": "25 lancets."
+  },
+  {
+    "id": 60,
+    "name": "Accu-Chek Test Strips (10)",
+    "category": "Diabetes Care",
+    "price": 450.00,
+    "description": "Blood glucose strips."
+  },
+  {
+    "id": 61,
+    "name": "Dr. Morepen Thermometer",
+    "category": "Medical Devices",
+    "price": 110.00,
+    "description": "Digital thermometer."
+  },
+  {
+    "id": 62,
+    "name": "Omron BP Monitor",
+    "category": "Medical Devices",
+    "price": 1850.00,
+    "description": "Automatic blood pressure monitor."
+  },
+  {
+    "id": 63,
+    "name": "Steam Vaporizer",
+    "category": "Medical Devices",
+    "price": 220.00,
+    "description": "Portable facial steamer."
+  },
+  {
+    "id": 64,
+    "name": "Himalaya Septilin",
+    "category": "Herbal",
+    "price": 150.00,
+    "description": "60 tablets. Supports immunity."
+  },
+  {
+    "id": 65,
+    "name": "Dabur Honey 250g",
+    "category": "Health Foods",
+    "price": 140.00,
+    "description": "Pure honey for daily consumption."
+  },
+  {
+    "id": 66,
+    "name": "Horlicks Classic Malt 500g",
+    "category": "Health Foods",
+    "price": 250.00,
+    "description": "Health drink powder."
+  },
+  {
+    "id": 67,
+    "name": "Boost 200g",
+    "category": "Health Foods",
+    "price": 120.00,
+    "description": "Energy drink mix."
+  },
+  {
+    "id": 68,
+    "name": "Complan Chocolate 200g",
+    "category": "Health Foods",
+    "price": 150.00,
+    "description": "Nutritional drink."
+  },
+  {
+    "id": 69,
+    "name": "ORS-L Ready Drink",
+    "category": "Hydration",
+    "price": 35.00,
+    "description": "200ml ready-to-drink ORS."
+  },
+  {
+    "id": 70,
+    "name": "Himani Fast Relief",
+    "category": "Pain Relief",
+    "price": 55.00,
+    "description": "20g. Ayurvedic pain balm."
+  },
+  {
+    "id": 71,
+    "name": "Pain Relief Hot Water Bag",
+    "category": "Medical Devices",
+    "price": 160.00,
+    "description": "Rubber hot water bottle."
+  },
+  {
+    "id": 72,
+    "name": "Savlon Wet Wipes",
+    "category": "Hygiene",
+    "price": 45.00,
+    "description": "10 antibacterial wipes."
+  },
+  {
+    "id": 73,
+    "name": "Mother Sparsh Hand Sanitizer",
+    "category": "Hygiene",
+    "price": 60.00,
+    "description": "50ml herbal sanitizer."
+  },
+  {
+    "id": 74,
+    "name": "Himalaya Baby Powder",
+    "category": "Baby Care",
+    "price": 85.00,
+    "description": "100g. Natural baby powder."
+  },
+  {
+    "id": 75,
+    "name": "Johnson's Baby Soap",
+    "category": "Baby Care",
+    "price": 40.00,
+    "description": "75g. Gentle soap."
+  },
+  {
+    "id": 76,
+    "name": "Pampers Newborn Diapers (10)",
+    "category": "Baby Care",
+    "price": 110.00,
+    "description": "Soft and absorbent."
+  },
+  {
+    "id": 77,
+    "name": "Dettol Bathing Soap",
+    "category": "Hygiene",
+    "price": 35.00,
+    "description": "75g. Antibacterial soap."
+  },
+  {
+    "id": 78,
+    "name": "Lifebuoy Total Soap",
+    "category": "Hygiene",
+    "price": 30.00,
+    "description": "90g. Germ protection."
+  },
+  {
+    "id": 79,
+    "name": "Selsun Anti-Dandruff Shampoo",
+    "category": "Hair Care",
+    "price": 140.00,
+    "description": "60ml. Anti-dandruff treatment."
+  },
+  {
+    "id": 80,
+    "name": "Head & Shoulders Cool Menthol 80ml",
+    "category": "Hair Care",
+    "price": 78.00,
+    "description": "Anti-dandruff shampoo."
+  },
+  {
+    "id": 81,
+    "name": "Clinic Plus Strong Shampoo 100ml",
+    "category": "Hair Care",
+    "price": 60.00,
+    "description": "Daily-use shampoo."
+  },
+  {
+    "id": 82,
+    "name": "Candid Antifungal Powder 50g",
+    "category": "Skin Care",
+    "price": 95.00,
+    "description": "Antifungal body powder."
+  },
+  {
+    "id": 83,
+    "name": "Lacto Calamine Lotion",
+    "category": "Skin Care",
+    "price": 95.00,
+    "description": "Oil-control lotion."
+  },
+  {
+    "id": 84,
+    "name": "Soframycin Skin Cream",
+    "category": "First Aid",
+    "price": 65.00,
+    "description": "30g. For minor skin infections."
+  },
+  {
+    "id": 85,
+    "name": "Tetmosol Medicated Soap",
+    "category": "Skin Care",
+    "price": 38.00,
+    "description": "75g. Anti-scabies soap."
+  },
+  {
+    "id": 86,
+    "name": "Volini Gel 30g",
+    "category": "Pain Relief",
+    "price": 95.00,
+    "description": "Pain relief gel."
+  },
+  {
+    "id": 87,
+    "name": "Relispray Instant Pain Relief",
+    "category": "Pain Relief",
+    "price": 120.00,
+    "description": "Acute pain spray."
+  },
+  {
+    "id": 88,
+    "name": "ORS Apple Flavour",
+    "category": "Hydration",
+    "price": 22.00,
+    "description": "Flavoured oral rehydration salts."
+  },
+  {
+    "id": 89,
+    "name": "KwikNic 2mg Chewing Gum",
+    "category": "Wellness",
+    "price": 55.00,
+    "description": "Nicotine gum for smokers."
+  },
+  {
+    "id": 90,
+    "name": "Himalaya Cold Balm",
+    "category": "Cold & Cough",
+    "price": 45.00,
+    "description": "10g balm for congestion."
+  },
+  {
+    "id": 91,
+    "name": "Otrivin Nasal Drops (Adult)",
+    "category": "Cold & Cough",
+    "price": 75.00,
+    "description": "10ml. Nasal decongestant."
+  },
+  {
+    "id": 92,
+    "name": "ORS Coconut Water Powder",
+    "category": "Hydration",
+    "price": 25.00,
+    "description": "Electrolyte drink mix."
+  },
+  {
+    "id": 93,
+    "name": "Himalaya Tulsi Syrup",
+    "category": "Herbal",
+    "price": 105.00,
+    "description": "100ml herbal immunity syrup."
+  },
+  {
+    "id": 94,
+    "name": "Dabur Honitus",
+    "category": "Cold & Cough",
+    "price": 95.00,
+    "description": "100ml. Herbal cough remedy."
+  },
+  {
+    "id": 95,
+    "name": "Gas-O-Fast Jeera",
+    "category": "Digestive Health",
+    "price": 15.00,
+    "description": "Sachet for acidity."
+  },
+  {
+    "id": 96,
+    "name": "ORS PLUS Orange",
+    "category": "Hydration",
+    "price": 20.00,
+    "description": "Electrolyte powder."
+  },
+  {
+    "id": 97,
+    "name": "Cetrimide Powder 20g",
+    "category": "First Aid",
+    "price": 30.00,
+    "description": "Antimicrobial skin powder."
+  },
+  {
+    "id": 98,
+    "name": "Tegaderm Transparent Dressing",
+    "category": "First Aid",
+    "price": 55.00,
+    "description": "Sterile wound dressing."
+  },
+  {
+    "id": 99,
+    "name": "Himalaya Bonnisan Drops",
+    "category": "Baby Care",
+    "price": 70.00,
+    "description": "30ml. Digestive support for infants."
+  },
+  {
+    "id": 100,
+    "name": "ORS Hydration Bottle 200ml",
+    "category": "Hydration",
+    "price": 30.00,
+    "description": "Ready-to-drink ORS solution."
+  },
+  {
+    "id": 101,
+    "name": "Himalaya Koflet Lozenges",
+    "category": "Cold & Cough",
+    "price": 55.00,
+    "description": "6 herbal lozenges for throat comfort."
+  },
+  {
+    "id": 102,
+    "name": "Charak Livomyn Syrup",
+    "category": "Herbal",
+    "price": 130.00,
+    "description": "200ml liver support tonic."
+  },
+  {
+    "id": 103,
+    "name": "Gaviscon Liquid 150ml",
+    "category": "Digestive Health",
+    "price": 145.00,
+    "description": "For gas, acidity, and heartburn."
+  },
+  {
+    "id": 104,
+    "name": "Odomos Cream",
+    "category": "Personal Care",
+    "price": 85.00,
+    "description": "50g mosquito repellent."
+  },
+  {
+    "id": 105,
+    "name": "Goodknight Mosquito Coil",
+    "category": "Personal Care",
+    "price": 42.00,
+    "description": "10 coils for mosquito protection."
+  },
+  {
+    "id": 106,
+    "name": "VWash Plus 100ml",
+    "category": "Personal Care",
+    "price": 175.00,
+    "description": "Feminine hygiene wash."
+  },
+  {
+    "id": 107,
+    "name": "Himalaya Baby Lotion",
+    "category": "Baby Care",
+    "price": 95.00,
+    "description": "100ml gentle moisturizer."
+  },
+  {
+    "id": 108,
+    "name": "Johnson's Baby Oil 100ml",
+    "category": "Baby Care",
+    "price": 110.00,
+    "description": "Mild baby oil for skin."
+  },
+  {
+    "id": 109,
+    "name": "Farlin Baby Wet Wipes",
+    "category": "Baby Care",
+    "price": 70.00,
+    "description": "20 alcohol-free wipes."
+  },
+  {
+    "id": 110,
+    "name": "Nivea Men Shaving Gel",
+    "category": "Personal Care",
+    "price": 220.00,
+    "description": "200ml sensitive shaving gel."
+  },
+  {
+    "id": 111,
+    "name": "Gillette Guard Razor",
+    "category": "Personal Care",
+    "price": 35.00,
+    "description": "Single-blade affordable razor."
+  },
+  {
+    "id": 112,
+    "name": "Gillette Shaving Foam 50g",
+    "category": "Personal Care",
+    "price": 75.00,
+    "description": "Sensitive skin shaving foam."
+  },
+  {
+    "id": 113,
+    "name": "Charcoal Face Wash",
+    "category": "Skin Care",
+    "price": 145.00,
+    "description": "100ml deep-cleansing wash."
+  },
+  {
+    "id": 114,
+    "name": "Patanjali Aloe Vera Gel 60g",
+    "category": "Skin Care",
+    "price": 55.00,
+    "description": "Natural soothing gel."
+  },
+  {
+    "id": 115,
+    "name": "Himalaya Sun Protect SPF 30",
+    "category": "Skin Care",
+    "price": 165.00,
+    "description": "100ml sunscreen."
+  },
+  {
+    "id": 116,
+    "name": "Neutrogena Oil-Free Moisturizer",
+    "category": "Skin Care",
+    "price": 420.00,
+    "description": "118ml lightweight lotion."
+  },
+  {
+    "id": 117,
+    "name": "SebaMed Baby Shampoo 50ml",
+    "category": "Baby Care",
+    "price": 135.00,
+    "description": "pH-balanced formula for babies."
+  },
+  {
+    "id": 118,
+    "name": "Dabur Lal Tail 100ml",
+    "category": "Baby Care",
+    "price": 90.00,
+    "description": "Ayurvedic baby massage oil."
+  },
+  {
+    "id": 119,
+    "name": "Savlon Hand Sanitizer 100ml",
+    "category": "Hygiene",
+    "price": 70.00,
+    "description": "Kills 99.9% germs."
+  },
+  {
+    "id": 120,
+    "name": "Medimix Ayurvedic Soap 75g",
+    "category": "Hygiene",
+    "price": 38.00,
+    "description": "18-herb soap bar."
+  },
+  {
+    "id": 121,
+    "name": "Margo Neem Soap 100g",
+    "category": "Hygiene",
+    "price": 30.00,
+    "description": "Neem-based antibacterial soap."
+  },
+  {
+    "id": 122,
+    "name": "Sebamed Lip Defense",
+    "category": "Skin Care",
+    "price": 260.00,
+    "description": "Lip balm with SPF."
+  },
+  {
+    "id": 123,
+    "name": "Carmex Lip Balm",
+    "category": "Skin Care",
+    "price": 180.00,
+    "description": "Moisturizing lip therapy."
+  },
+  {
+    "id": 124,
+    "name": "Neurobion Forte",
+    "category": "Vitamins",
+    "price": 50.00,
+    "description": "10 tablets. B-vitamin complex."
+  },
+  {
+    "id": 125,
+    "name": "Revital H",
+    "category": "Vitamins",
+    "price": 120.00,
+    "description": "10 capsules. Multivitamin."
+  },
+  {
+    "id": 126,
+    "name": "Cholecalciferol 60k IU",
+    "category": "Vitamins",
+    "price": 35.00,
+    "description": "Vitamin D3 weekly supplement."
+  },
+  {
+    "id": 127,
+    "name": "Telma 40mg",
+    "category": "Heart",
+    "price": 150.00,
+    "description": "10 tablets. Blood pressure management."
+  },
+  {
+    "id": 128,
+    "name": "Ecosprin 150mg",
+    "category": "Heart",
+    "price": 24.00,
+    "description": "Strip of 14. Antiplatelet."
+  },
+  {
+    "id": 129,
+    "name": "Atorva 10mg",
+    "category": "Heart",
+    "price": 110.00,
+    "description": "10 tablets. Cholesterol control."
+  },
+  {
+    "id": 130,
+    "name": "ORS Mango Drink 200ml",
+    "category": "Hydration",
+    "price": 28.00,
+    "description": "Ready-to-drink electrolyte solution."
+  },
+  {
+    "id": 131,
+    "name": "ORS Mixed Fruit Powder",
+    "category": "Hydration",
+    "price": 20.00,
+    "description": "1 sachet electrolyte blend."
+  },
+  {
+    "id": 132,
+    "name": "Volini Maxx",
+    "category": "Pain Relief",
+    "price": 150.00,
+    "description": "30g strong pain gel."
+  },
+  {
+    "id": 133,
+    "name": "Moov Spray 80g",
+    "category": "Pain Relief",
+    "price": 145.00,
+    "description": "Anti-inflammatory pain spray."
+  },
+  {
+    "id": 134,
+    "name": "Himalaya Gasex Tablets",
+    "category": "Digestive Health",
+    "price": 65.00,
+    "description": "For gas and bloating."
+  },
+  {
+    "id": 135,
+    "name": "Zandu Pancharishta 200ml",
+    "category": "Digestive Health",
+    "price": 70.00,
+    "description": "Ayurvedic digestive tonic."
+  },
+  {
+    "id": 136,
+    "name": "Dabur Pudin Hara Liquid",
+    "category": "Digestive Health",
+    "price": 55.00,
+    "description": "30ml liquid for digestion."
+  },
+  {
+    "id": 137,
+    "name": "Imol Plus",
+    "category": "Pain Relief",
+    "price": 32.00,
+    "description": "Pain and fever relief tablets."
+  },
+  {
+    "id": 138,
+    "name": "Sinarest 10 Tablets",
+    "category": "Cold & Cough",
+    "price": 45.00,
+    "description": "For common cold symptoms."
+  },
+  {
+    "id": 139,
+    "name": "D Cold Total",
+    "category": "Cold & Cough",
+    "price": 35.00,
+    "description": "Cold and congestion relief."
+  },
+  {
+    "id": 140,
+    "name": "Nasivion Nasal Spray (Adult)",
+    "category": "Cold & Cough",
+    "price": 78.00,
+    "description": "10ml nasal decongestant."
+  },
+  {
+    "id": 141,
+    "name": "Dettol Wet Wipes",
+    "category": "Hygiene",
+    "price": 45.00,
+    "description": "10 wipes for instant cleaning."
+  },
+  {
+    "id": 142,
+    "name": "MamyPoko Pants Small (10 Pack)",
+    "category": "Baby Care",
+    "price": 120.00,
+    "description": "Soft and comfortable diapers."
+  },
+  {
+    "id": 143,
+    "name": "Huggies Newborn 24 Pack",
+    "category": "Baby Care",
+    "price": 240.00,
+    "description": "Leak-proof diapers."
+  },
+  {
+    "id": 144,
+    "name": "Sebamed Baby Cream Extra Soft",
+    "category": "Baby Care",
+    "price": 350.00,
+    "description": "Protects delicate skin."
+  },
+  {
+    "id": 145,
+    "name": "Cerelac Wheat Apple 300g",
+    "category": "Baby Care",
+    "price": 290.00,
+    "description": "Nutritious baby food."
+  },
+  {
+    "id": 146,
+    "name": "Ensure Diabetes Care 200g",
+    "category": "Health Foods",
+    "price": 380.00,
+    "description": "Sugar-controlled nutrition drink."
+  },
+  {
+    "id": 147,
+    "name": "Protinex Original 250g",
+    "category": "Health Foods",
+    "price": 345.00,
+    "description": "Protein nutrition supplement."
+  },
+  {
+    "id": 148,
+    "name": "Oatmeal Instant 1kg",
+    "category": "Health Foods",
+    "price": 150.00,
+    "description": "Quick-cooking oats."
+  },
+  {
+    "id": 149,
+    "name": "Saffola Oats 500g",
+    "category": "Health Foods",
+    "price": 85.00,
+    "description": "High-fiber breakfast."
+  },
+  {
+    "id": 150,
+    "name": "Patanjali Giloy Juice 500ml",
+    "category": "Herbal",
+    "price": 140.00,
+    "description": "Immunity booster juice."
+  },
+  {
+    "id": 151,
+    "name": "Bael Juice 500ml",
+    "category": "Herbal",
+    "price": 120.00,
+    "description": "Aids digestion and cooling."
+  },
+  {
+    "id": 152,
+    "name": "Kapiva Aloe Vera Juice",
+    "category": "Herbal",
+    "price": 230.00,
+    "description": "Natural detox drink."
+  },
+  {
+    "id": 153,
+    "name": "Dabur Ashwagandhadi Lehya",
+    "category": "Herbal",
+    "price": 190.00,
+    "description": "Ayurvedic strength tonic."
+  },
+  {
+    "id": 154,
+    "name": "Dr. Morepen Glucometer",
+    "category": "Medical Devices",
+    "price": 650.00,
+    "description": "Blood sugar monitoring device."
+  },
+  {
+    "id": 155,
+    "name": "Pulse Oximeter",
+    "category": "Medical Devices",
+    "price": 890.00,
+    "description": "Measures SpO2 and pulse rate."
+  },
+  {
+    "id": 156,
+    "name": "Nebulizer Machine",
+    "category": "Medical Devices",
+    "price": 1450.00,
+    "description": "For inhalation therapy."
+  },
+  {
+    "id": 157,
+    "name": "Digital Weighing Scale",
+    "category": "Medical Devices",
+    "price": 550.00,
+    "description": "Personal weight monitor."
+  },
+  {
+    "id": 158,
+    "name": "Infrared Thermometer",
+    "category": "Medical Devices",
+    "price": 980.00,
+    "description": "Non-contact temperature measurement."
+  },
+  {
+    "id": 159,
+    "name": "Himalaya Mentat",
+    "category": "Herbal",
+    "price": 150.00,
+    "description": "Mental wellness tablets."
+  },
+  {
+    "id": 160,
+    "name": "Dabur Stresscom",
+    "category": "Herbal",
+    "price": 130.00,
+    "description": "Ashwagandha-based stress relief."
+  },
+  {
+    "id": 161,
+    "name": "I-Pill Emergency Contraceptive",
+    "category": "Personal Care",
+    "price": 110.00,
+    "description": "Single emergency contraceptive pill."
+  },
+  {
+    "id": 162,
+    "name": "Pregnancy Test Kit",
+    "category": "Medical Devices",
+    "price": 55.00,
+    "description": "Rapid detection kit."
+  },
+  {
+    "id": 163,
+    "name": "Earbuds Cotton Swabs 100 Pack",
+    "category": "Hygiene",
+    "price": 35.00,
+    "description": "Soft cotton swabs."
+  },
+  {
+    "id": 164,
+    "name": "Adult Diapers Medium (10 Pack)",
+    "category": "Personal Care",
+    "price": 290.00,
+    "description": "Absorbent adult diapers."
+  },
+  {
+    "id": 165,
+    "name": "Sterile Gauze Pads (10 Pack)",
+    "category": "First Aid",
+    "price": 48.00,
+    "description": "For wound dressing."
+  },
+  {
+    "id": 166,
+    "name": "Steri-Strip Skin Adhesive",
+    "category": "First Aid",
+    "price": 75.00,
+    "description": "Adhesive strip closures."
+  },
+  {
+    "id": 167,
+    "name": "Parachute Coconut Oil 200ml",
+    "category": "Hair Care",
+    "price": 95.00,
+    "description": "Pure coconut hair oil."
+  },
+  {
+    "id": 168,
+    "name": "Indulekha Hair Oil 50ml",
+    "category": "Hair Care",
+    "price": 240.00,
+    "description": "Ayurvedic hair growth oil."
+  },
+  {
+    "id": 169,
+    "name": "Kesh King Oil 100ml",
+    "category": "Hair Care",
+    "price": 150.00,
+    "description": "Ayurvedic anti-hairfall oil."
+  },
+  {
+    "id": 170,
+    "name": "Biotique Shampoo Bio Kelp",
+    "category": "Hair Care",
+    "price": 110.00,
+    "description": "Protein-rich cleansing shampoo."
+  },
+  {
+    "id": 171,
+    "name": "Clinic Plus Conditioner 80ml",
+    "category": "Hair Care",
+    "price": 65.00,
+    "description": "Nourishing conditioner."
+  },
+  {
+    "id": 172,
+    "name": "Strepsils Honey Lemon",
+    "category": "Cold & Cough",
+    "price": 45.00,
+    "description": "6 lozenges for sore throat."
+  },
+  {
+    "id": 173,
+    "name": "Himalaya Septilin Syrup",
+    "category": "Herbal",
+    "price": 140.00,
+    "description": "200ml immune booster."
+  },
+  {
+    "id": 174,
+    "name": "Himalaya Rumalaya Gel",
+    "category": "Pain Relief",
+    "price": 85.00,
+    "description": "Topical muscle relief gel."
+  },
+  {
+    "id": 175,
+    "name": "Dermi Cool Powder 50g",
+    "category": "Skin Care",
+    "price": 45.00,
+    "description": "Cooling powder for itching."
+  },
+  {
+    "id": 176,
+    "name": "Itch Guard Cream",
+    "category": "Skin Care",
+    "price": 75.00,
+    "description": "Antifungal and anti-itch cream."
+  },
+  {
+    "id": 177,
+    "name": "Ring Guard Cream",
+    "category": "Skin Care",
+    "price": 65.00,
+    "description": "Anti-fungal cream for ringworm."
+  },
+  {
+    "id": 178,
+    "name": "Volini Roll-On",
+    "category": "Pain Relief",
+    "price": 125.00,
+    "description": "Roll-on for localized pain."
+  },
+  {
+    "id": 179,
+    "name": "Odonil Room Freshener Block",
+    "category": "Home Care",
+    "price": 50.00,
+    "description": "Bathroom fragrance block."
+  },
+  {
+    "id": 180,
+    "name": "Savlon Surface Disinfectant Spray",
+    "category": "Home Care",
+    "price": 120.00,
+    "description": "99.9% germ protection spray."
+  },
+  {
+    "id": 181,
+    "name": "Dettol Disinfectant Spray",
+    "category": "Home Care",
+    "price": 140.00,
+    "description": "Surface disinfectant aerosol."
+  },
+  {
+    "id": 182,
+    "name": "Hit Black Insect Spray",
+    "category": "Home Care",
+    "price": 99.00,
+    "description": "Kills mosquitoes and flies."
+  },
+  {
+    "id": 183,
+    "name": "Lizol Floor Cleaner Citrus 500ml",
+    "category": "Home Care",
+    "price": 85.00,
+    "description": "Antibacterial floor cleaner."
+  },
+  {
+    "id": 184,
+    "name": "Himalaya Baby Shampoo",
+    "category": "Baby Care",
+    "price": 90.00,
+    "description": "Gentle no-tears formula."
+  },
+  {
+    "id": 185,
+    "name": "Sebamed Anti-Dry Shampoo",
+    "category": "Hair Care",
+    "price": 310.00,
+    "description": "Relieves dry scalp."
+  },
+  {
+    "id": 186,
+    "name": "Head Massage Oil Combo Pack",
+    "category": "Hair Care",
+    "price": 180.00,
+    "description": "Herbal mix hair oils."
+  },
+  {
+    "id": 187,
+    "name": "Neem Face Pack",
+    "category": "Skin Care",
+    "price": 65.00,
+    "description": "Anti-acne herbal pack."
+  },
+  {
+    "id": 188,
+    "name": "Charcoal Peel-Off Mask",
+    "category": "Skin Care",
+    "price": 99.00,
+    "description": "Blackhead removal mask."
+  },
+  {
+    "id": 189,
+    "name": "Dove Moisture Beauty Bar 100g",
+    "category": "Hygiene",
+    "price": 48.00,
+    "description": "Moisturizing soap bar."
+  },
+  {
+    "id": 190,
+    "name": "Lux Soft Touch Soap",
+    "category": "Hygiene",
+    "price": 32.00,
+    "description": "90g floral soap."
+  },
+  {
+    "id": 191,
+    "name": "Oral-B Soft Toothbrush",
+    "category": "Oral Care",
+    "price": 28.00,
+    "description": "Soft-bristle toothbrush."
+  },
+  {
+    "id": 192,
+    "name": "Colgate MaxFresh 100g",
+    "category": "Oral Care",
+    "price": 95.00,
+    "description": "Cooling gel toothpaste."
+  },
+  {
+    "id": 193,
+    "name": "Listerine Cool Mint 80ml",
+    "category": "Oral Care",
+    "price": 65.00,
+    "description": "Antiseptic mouthwash."
+  },
+  {
+    "id": 194,
+    "name": "Glycerin Pure 20ml",
+    "category": "Skin Care",
+    "price": 25.00,
+    "description": "Skin moisturizer."
+  },
+  {
+    "id": 195,
+    "name": "Eye Drops Lubricant 10ml",
+    "category": "Eye Care",
+    "price": 70.00,
+    "description": "For dryness and irritation."
+  },
+  {
+    "id": 196,
+    "name": "Itone Herbal Eye Drops",
+    "category": "Eye Care",
+    "price": 85.00,
+    "description": "Herbal cooling eye relief."
+  },
+  {
+    "id": 197,
+    "name": "Ocutears Eye Lubricant",
+    "category": "Eye Care",
+    "price": 160.00,
+    "description": "Soothing drops for dry eyes."
+  },
+  {
+    "id": 198,
+    "name": "Nevanac Eye Drops",
+    "category": "Eye Care",
+    "price": 220.00,
+    "description": "Antiinflammatory eye drops."
+  },
+  {
+    "id": 199,
+    "name": "Hand Gloves Disposable (50 Pack)",
+    "category": "Medical Devices",
+    "price": 120.00,
+    "description": "Disposable medical gloves."
+  },
+  {
+    "id": 200,
+    "name": "Surgical Mask 10 Pack",
+    "category": "Hygiene",
+    "price": 60.00,
+    "description": "3-layer protective masks."
+  },
+  {
+    "id": 201,
+    "name": "Glucon-D Orange 450g",
+    "category": "Hydration",
+    "price": 160.00,
+    "description": "Instant energy drink mix with orange flavour."
+  },
+  {
+    "id": 202,
+    "name": "Chyawanprakash Sugar-Free 500g",
+    "category": "Herbal",
+    "price": 240.00,
+    "description": "Sugar-free ayurvedic immunity supplement."
+  },
+  {
+    "id": 203,
+    "name": "Sugar-Free Natura 100 Tablets",
+    "category": "Diabetes Care",
+    "price": 135.00,
+    "description": "Low-calorie sugar substitute."
+  },
+  {
+    "id": 204,
+    "name": "Pediasure Vanilla 200g",
+    "category": "Health Foods",
+    "price": 345.00,
+    "description": "Nutrition supplement for kids."
+  },
+  {
+    "id": 205,
+    "name": "ORS Apple Ready Pack 1L",
+    "category": "Hydration",
+    "price": 55.00,
+    "description": "1L ready-to-drink ORS."
+  },
+  {
+    "id": 206,
+    "name": "Cardia Care Tea",
+    "category": "Health Foods",
+    "price": 120.00,
+    "description": "Herbal tea for general wellness."
+  },
+  {
+    "id": 207,
+    "name": "Dabur Giloy Ghanvati",
+    "category": "Herbal",
+    "price": 160.00,
+    "description": "40 tablets. Immunity support."
+  },
+  {
+    "id": 208,
+    "name": "Himalaya Tulsi Tablet",
+    "category": "Herbal",
+    "price": 120.00,
+    "description": "60 tablets. Respiratory support."
+  },
+  {
+    "id": 209,
+    "name": "Dettol Kitchen Gel 500ml",
+    "category": "Home Care",
+    "price": 98.00,
+    "description": "Antibacterial dishwashing gel."
+  },
+  {
+    "id": 210,
+    "name": "Himalaya Neem Scrub",
+    "category": "Skin Care",
+    "price": 110.00,
+    "description": "75g exfoliating neem scrub."
+  },
+  {
+    "id": 211,
+    "name": "Patanjali Activated Carbon Soap",
+    "category": "Hygiene",
+    "price": 40.00,
+    "description": "Detoxifying herbal soap."
+  },
+  {
+    "id": 212,
+    "name": "Nivea Men Dark Spot Cream",
+    "category": "Skin Care",
+    "price": 190.00,
+    "description": "Moisturizer for men."
+  },
+  {
+    "id": 213,
+    "name": "Garnier Men PowerWhite Face Wash",
+    "category": "Skin Care",
+    "price": 145.00,
+    "description": "Oil-control cleanser."
+  },
+  {
+    "id": 214,
+    "name": "Himalaya Anti-Dandruff Cream",
+    "category": "Hair Care",
+    "price": 105.00,
+    "description": "100g herbal scalp cream."
+  },
+  {
+    "id": 215,
+    "name": "Sunsilk Black Shine Shampoo 180ml",
+    "category": "Hair Care",
+    "price": 120.00,
+    "description": "For smooth and shiny hair."
+  },
+  {
+    "id": 216,
+    "name": "Pantene Hair Fall Control 80ml",
+    "category": "Hair Care",
+    "price": 85.00,
+    "description": "Strengthening shampoo."
+  },
+  {
+    "id": 217,
+    "name": "Head & Shoulders Anti-Hairfall 180ml",
+    "category": "Hair Care",
+    "price": 150.00,
+    "description": "Anti-dandruff with anti-hairfall benefit."
+  },
+  {
+    "id": 218,
+    "name": "Cinthol Lime Soap 100g",
+    "category": "Hygiene",
+    "price": 32.00,
+    "description": "Deodorizing lime soap."
+  },
+  {
+    "id": 219,
+    "name": "Pears Pure & Gentle Soap",
+    "category": "Hygiene",
+    "price": 48.00,
+    "description": "Transparent moisturizing bar."
+  },
+  {
+    "id": 220,
+    "name": "VWash Wipes (Pack of 10)",
+    "category": "Personal Care",
+    "price": 65.00,
+    "description": "Intimate hygiene wipes."
+  },
+  {
+    "id": 221,
+    "name": "Amrutanjan Strong Pain Balm",
+    "category": "Pain Relief",
+    "price": 48.00,
+    "description": "8g extra-strong balm."
+  },
+  {
+    "id": 222,
+    "name": "Amrutanjan Roll-On",
+    "category": "Pain Relief",
+    "price": 85.00,
+    "description": "Roll-on for headaches."
+  },
+  {
+    "id": 223,
+    "name": "Vicks Cough Drops Menthol",
+    "category": "Cold & Cough",
+    "price": 20.00,
+    "description": "Pack of 20 cough drops."
+  },
+  {
+    "id": 224,
+    "name": "Dr. Ortho Oil 60ml",
+    "category": "Pain Relief",
+    "price": 140.00,
+    "description": "Ayurvedic pain oil."
+  },
+  {
+    "id": 225,
+    "name": "Himalaya Shatavari",
+    "category": "Herbal",
+    "price": 160.00,
+    "description": "60 tablets. Women's wellness."
+  },
+  {
+    "id": 226,
+    "name": "Zandu Kesari Jivan 450g",
+    "category": "Herbal",
+    "price": 285.00,
+    "description": "Energizing ayurvedic tonic."
+  },
+  {
+    "id": 227,
+    "name": "Kapiva Apple Cider Vinegar 500ml",
+    "category": "Herbal",
+    "price": 240.00,
+    "description": "Unfiltered with mother."
+  },
+  {
+    "id": 228,
+    "name": "Holy Basil Tea",
+    "category": "Health Foods",
+    "price": 95.00,
+    "description": "Herbal tea for immunity."
+  },
+  {
+    "id": 229,
+    "name": "DermiCool Prickly Heat Powder 150g",
+    "category": "Skin Care",
+    "price": 85.00,
+    "description": "Cooling summer powder."
+  },
+  {
+    "id": 230,
+    "name": "Dermadew Aloe Lotion 100ml",
+    "category": "Skin Care",
+    "price": 185.00,
+    "description": "Gentle hydration lotion."
+  },
+  {
+    "id": 231,
+    "name": "Boroplus Antiseptic Cream",
+    "category": "Skin Care",
+    "price": 35.00,
+    "description": "All-purpose protective cream."
+  },
+  {
+    "id": 232,
+    "name": "Clean & Clear Facewash 100ml",
+    "category": "Skin Care",
+    "price": 145.00,
+    "description": "Oil-free daily cleanser."
+  },
+  {
+    "id": 233,
+    "name": "Lotus Herbals Sunscreen SPF 50",
+    "category": "Skin Care",
+    "price": 260.00,
+    "description": "High protection sunscreen."
+  },
+  {
+    "id": 234,
+    "name": "Mamaearth Ubtan Facewash",
+    "category": "Skin Care",
+    "price": 249.00,
+    "description": "Natural face wash with turmeric."
+  },
+  {
+    "id": 235,
+    "name": "Mamaearth Vitamin C Serum",
+    "category": "Skin Care",
+    "price": 499.00,
+    "description": "Skin brightening serum."
+  },
+  {
+    "id": 236,
+    "name": "Minimalist 10% Niacinamide",
+    "category": "Skin Care",
+    "price": 599.00,
+    "description": "Serum for acne marks and pores."
+  },
+  {
+    "id": 237,
+    "name": "Plum Green Tea Toner",
+    "category": "Skin Care",
+    "price": 350.00,
+    "description": "Alcohol-free toner."
+  },
+  {
+    "id": 238,
+    "name": "Ponds Men Oil Control Face Wash",
+    "category": "Skin Care",
+    "price": 125.00,
+    "description": "Deep cleansing for men."
+  },
+  {
+    "id": 239,
+    "name": "Vicco Turmeric Cream",
+    "category": "Skin Care",
+    "price": 95.00,
+    "description": "Ayurvedic skin cream."
+  },
+  {
+    "id": 240,
+    "name": "Dabur Gulabari Rose Water 120ml",
+    "category": "Skin Care",
+    "price": 45.00,
+    "description": "Refreshing skin toner."
+  },
+  {
+    "id": 241,
+    "name": "Lacto Calamine Sunscreen SPF 50",
+    "category": "Skin Care",
+    "price": 210.00,
+    "description": "Oil-control sunscreen."
+  },
+  {
+    "id": 242,
+    "name": "Everyuth Golden Glow Peel-Off",
+    "category": "Skin Care",
+    "price": 110.00,
+    "description": "Instant glow peel-off mask."
+  },
+  {
+    "id": 243,
+    "name": "Nivea Fresh Active Deo",
+    "category": "Personal Care",
+    "price": 175.00,
+    "description": "Long-lasting fragrance."
+  },
+  {
+    "id": 244,
+    "name": "Rexona Shower Fresh Deo",
+    "category": "Personal Care",
+    "price": 165.00,
+    "description": "Anti-perspirant deodorant."
+  },
+  {
+    "id": 245,
+    "name": "Park Avenue Good Morning Deo",
+    "category": "Personal Care",
+    "price": 150.00,
+    "description": "Classic men's fragrance."
+  },
+  {
+    "id": 246,
+    "name": "Old Spice Aftershave Lotion",
+    "category": "Personal Care",
+    "price": 185.00,
+    "description": "Classic aftershave."
+  },
+  {
+    "id": 247,
+    "name": "Beardo Beard Oil 30ml",
+    "category": "Personal Care",
+    "price": 350.00,
+    "description": "Nourishing beard oil."
+  },
+  {
+    "id": 248,
+    "name": "Ustraa Face Wash for Men",
+    "category": "Skin Care",
+    "price": 199.00,
+    "description": "Oil control face wash."
+  },
+  {
+    "id": 249,
+    "name": "Patanjali Dant Kanti 100g",
+    "category": "Oral Care",
+    "price": 55.00,
+    "description": "Herbal toothpaste."
+  },
+  {
+    "id": 250,
+    "name": "Closeup Red Hot 150g",
+    "category": "Oral Care",
+    "price": 95.00,
+    "description": "Fresh breath gel toothpaste."
+  },
+  {
+    "id": 251,
+    "name": "Colgate Kids Toothpaste 60g",
+    "category": "Oral Care",
+    "price": 70.00,
+    "description": "Fluoride toothpaste for kids."
+  },
+  {
+    "id": 252,
+    "name": "Oral-B Kids Toothbrush",
+    "category": "Oral Care",
+    "price": 38.00,
+    "description": "Soft bristles for children."
+  },
+  {
+    "id": 253,
+    "name": "Himalaya Mouthwash 250ml",
+    "category": "Oral Care",
+    "price": 110.00,
+    "description": "Herbal anti-germ mouthwash."
+  },
+  {
+    "id": 254,
+    "name": "Listerine Original 250ml",
+    "category": "Oral Care",
+    "price": 150.00,
+    "description": "Antiseptic mouthwash."
+  },
+  {
+    "id": 255,
+    "name": "Hand Sanitizer Gel 500ml",
+    "category": "Hygiene",
+    "price": 120.00,
+    "description": "Large-size sanitizer."
+  },
+  {
+    "id": 256,
+    "name": "Dettol Instant Hand Sanitizer 200ml",
+    "category": "Hygiene",
+    "price": 95.00,
+    "description": "Quick-drying sanitizer."
+  },
+  {
+    "id": 257,
+    "name": "Himalaya Gentle Baby Wipes 72 Pack",
+    "category": "Baby Care",
+    "price": 130.00,
+    "description": "Aloe-infused wet tissues."
+  },
+  {
+    "id": 258,
+    "name": "Mee Mee Baby Powder 200g",
+    "category": "Baby Care",
+    "price": 110.00,
+    "description": "Soft soothing talc."
+  },
+  {
+    "id": 259,
+    "name": "Pigeon Baby Oil 100ml",
+    "category": "Baby Care",
+    "price": 140.00,
+    "description": "Mild nourishing baby oil."
+  },
+  {
+    "id": 260,
+    "name": "Sebamed Baby Wash",
+    "category": "Baby Care",
+    "price": 350.00,
+    "description": "pH-balanced cleansing wash."
+  },
+  {
+    "id": 261,
+    "name": "Mothercare Bottle 250ml",
+    "category": "Baby Care",
+    "price": 180.00,
+    "description": "BPA-free feeding bottle."
+  },
+  {
+    "id": 262,
+    "name": "Baby Massage Oil Almond 100ml",
+    "category": "Baby Care",
+    "price": 85.00,
+    "description": "Nourishing almond-based oil."
+  },
+  {
+    "id": 263,
+    "name": "Stroller Seat Sanitizing Spray",
+    "category": "Hygiene",
+    "price": 125.00,
+    "description": "Safe disinfectant for baby gear."
+  },
+  {
+    "id": 264,
+    "name": "AccuSure Oximeter",
+    "category": "Medical Devices",
+    "price": 900.00,
+    "description": "Pulse and oxygen monitoring."
+  },
+  {
+    "id": 265,
+    "name": "BP Monitor Compact",
+    "category": "Medical Devices",
+    "price": 1450.00,
+    "description": "Portable blood pressure monitor."
+  },
+  {
+    "id": 266,
+    "name": "Orthopedic Knee Cap Pair",
+    "category": "Medical Devices",
+    "price": 160.00,
+    "description": "Elastic knee support."
+  },
+  {
+    "id": 267,
+    "name": "Elbow Support Brace",
+    "category": "Medical Devices",
+    "price": 120.00,
+    "description": "Provides compression during strain."
+  },
+  {
+    "id": 268,
+    "name": "Cervical Collar Soft",
+    "category": "Medical Devices",
+    "price": 180.00,
+    "description": "Neck support collar."
+  },
+  {
+    "id": 269,
+    "name": "Heating Pad Electric",
+    "category": "Medical Devices",
+    "price": 420.00,
+    "description": "For pain and cramps relief."
+  },
+  {
+    "id": 270,
+    "name": "Hot & Cold Pack Gel",
+    "category": "Medical Devices",
+    "price": 150.00,
+    "description": "Reusable pain-relief pack."
+  },
+  {
+    "id": 271,
+    "name": "Instant Ice Pack",
+    "category": "First Aid",
+    "price": 60.00,
+    "description": "Single-use cold therapy."
+  },
+  {
+    "id": 272,
+    "name": "Adhesive Bandage Large",
+    "category": "First Aid",
+    "price": 20.00,
+    "description": "Sterile large adhesive bandage."
+  },
+  {
+    "id": 273,
+    "name": "Medigrip Crepe Bandage 10cm",
+    "category": "First Aid",
+    "price": 55.00,
+    "description": "Elastic support bandage."
+  },
+  {
+    "id": 274,
+    "name": "First Aid Kit Mini",
+    "category": "First Aid",
+    "price": 175.00,
+    "description": "Portable emergency kit."
+  },
+  {
+    "id": 275,
+    "name": "Wound Antiseptic Spray",
+    "category": "First Aid",
+    "price": 95.00,
+    "description": "For minor cuts and scrapes."
+  },
+  {
+    "id": 276,
+    "name": "Savlon Soap 125g",
+    "category": "Hygiene",
+    "price": 42.00,
+    "description": "Germ protection soap bar."
+  },
+  {
+    "id": 277,
+    "name": "Dettol Foaming Handwash 150ml",
+    "category": "Hygiene",
+    "price": 90.00,
+    "description": "Foam-based handwash."
+  },
+  {
+    "id": 278,
+    "name": "Himalaya Pure Hands Handwash",
+    "category": "Hygiene",
+    "price": 85.00,
+    "description": "Herbal germ protection."
+  },
+  {
+    "id": 279,
+    "name": "Olay Moisturizing Cream 50g",
+    "category": "Skin Care",
+    "price": 299.00,
+    "description": "Hydrating day cream."
+  },
+  {
+    "id": 280,
+    "name": "Garnier Hydra Bomb Sheet Mask",
+    "category": "Skin Care",
+    "price": 99.00,
+    "description": "Single-use hydrating mask."
+  },
+  {
+    "id": 281,
+    "name": "Pears Oil-Clear Face Wash",
+    "category": "Skin Care",
+    "price": 120.00,
+    "description": "Refreshing face wash."
+  },
+  {
+    "id": 282,
+    "name": "Mamaearth Aloe Vera Gel",
+    "category": "Skin Care",
+    "price": 249.00,
+    "description": "Pure aloe multipurpose gel."
+  },
+  {
+    "id": 283,
+    "name": "Patanjali Kesh Kanti Shampoo",
+    "category": "Hair Care",
+    "price": 85.00,
+    "description": "Herbal hair cleanser."
+  },
+  {
+    "id": 284,
+    "name": "Dove Intense Repair Shampoo",
+    "category": "Hair Care",
+    "price": 130.00,
+    "description": "For damaged hair."
+  },
+  {
+    "id": 285,
+    "name": "Enliven Hair Styling Gel",
+    "category": "Hair Care",
+    "price": 95.00,
+    "description": "Non-flaky styling gel."
+  },
+  {
+    "id": 286,
+    "name": "Set Wet Cool Hair Gel",
+    "category": "Hair Care",
+    "price": 75.00,
+    "description": "Long-lasting hold."
+  },
+  {
+    "id": 287,
+    "name": "Biotique Hair Serum",
+    "category": "Hair Care",
+    "price": 110.00,
+    "description": "Anti-frizz hair serum."
+  },
+  {
+    "id": 288,
+    "name": "Ayur Herbal Shampoo",
+    "category": "Hair Care",
+    "price": 65.00,
+    "description": "Amla and shikakai blend."
+  },
+  {
+    "id": 289,
+    "name": "Ustraa Beard Wash",
+    "category": "Personal Care",
+    "price": 199.00,
+    "description": "Refreshing beard cleanser."
+  },
+  {
+    "id": 290,
+    "name": "Gillette Vector Cartridge Pack (2)",
+    "category": "Personal Care",
+    "price": 85.00,
+    "description": "Razor blades replacement."
+  },
+  {
+    "id": 291,
+    "name": "Whisper Ultra Clean XL+",
+    "category": "Personal Care",
+    "price": 95.00,
+    "description": "6 pads. Extra coverage."
+  },
+  {
+    "id": 292,
+    "name": "Sofy Soft Tampons Regular",
+    "category": "Personal Care",
+    "price": 120.00,
+    "description": "Pack of 8 tampons."
+  },
+  {
+    "id": 293,
+    "name": "Durex Pleasure Me Condoms",
+    "category": "Personal Care",
+    "price": 180.00,
+    "description": "10 textured condoms."
+  },
+  {
+    "id": 294,
+    "name": "Peppermint Drops",
+    "category": "Digestive Health",
+    "price": 20.00,
+    "description": "Soothes indigestion."
+  },
+  {
+    "id": 295,
+    "name": "Zandu Nityam Tablet",
+    "category": "Digestive Health",
+    "price": 80.00,
+    "description": "For constipation relief."
+  },
+  {
+    "id": 296,
+    "name": "Himalaya Abana",
+    "category": "Herbal",
+    "price": 160.00,
+    "description": "Heart wellness tablets."
+  },
+  {
+    "id": 297,
+    "name": "Dabur Hingoli 40g",
+    "category": "Digestive Health",
+    "price": 30.00,
+    "description": "Herbal digestive tablets."
+  },
+  {
+    "id": 298,
+    "name": "Zandu Chyavanprashad Sugar-Free 500g",
+    "category": "Herbal",
+    "price": 260.00,
+    "description": "Ayurvedic sugar-free formula."
+  },
+  {
+    "id": 299,
+    "name": "Glycerin Soap Transparent",
+    "category": "Hygiene",
+    "price": 42.00,
+    "description": "Gentle moisturizing soap."
+  },
+  {
+    "id": 300,
+    "name": "Cooling Eye Mask Gel",
+    "category": "Personal Care",
+    "price": 110.00,
+    "description": "Reusable gel-based cooling mask."
   }
 ]
